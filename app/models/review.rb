@@ -1,4 +1,4 @@
 class Review < ApplicationRecord
   belongs_to:user
-  bilogns_to:movie
+  belongs_to:movie
 end
